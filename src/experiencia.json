@@ -1,0 +1,31 @@
+{ "experiencia": [
+    {
+        "icon": "logos/ap-logo-blanco-medium-1.svg",
+        "name": "Grupo Academia Postal",
+        "profession": "Profesor titular",
+        "date": "2023-2024",
+        "description": "Docencia de certificados de profesionalidad relacionados con desarrollo web y IT de sistemas microinformáticos."
+    },
+    {
+        "icon": "logos/RT_logo.svg",
+        "name": "Freelance",
+        "profession": "Desarrollador front-end",
+        "date": "2022-2023",
+        "description": "Desarrollo, mantenimiento y actualización de páginas web corporativas, blogs…"
+    },
+    {
+        "icon": "logos/ADM-500x133_blanco.svg",
+        "name": "ADM Comunicaciones",
+        "profession": "Desarrollador & diseñador",
+        "date": "2018-2019",
+        "description": "Diseñador gráfico y maquetador web. Creación de web de empresa y papelería publicitaria y corporativa."
+    },
+    {
+        "icon": "logos/INVBIT_LOGOTIPO.svg",
+        "name": "INVBIT",
+        "profession": "Diseñador gráfico & maquetador",
+        "date": "2017 - 2018",
+        "description": "Diseñador gráfico y maquetador web. Creación de páginas web y e-commerce (Wordpress...)."
+    }
+]            
+}

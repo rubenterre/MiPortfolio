@@ -1,0 +1,46 @@
+{
+    "proyectos": [
+        {
+            "banner": "images/projects/DestinoViquingoWeb.png",
+            "name": "Destino Viquingo",
+            "description": "Página web del libro Destino Viquingo.",
+            "url": "https://github.com/rubenterre/DestinoViquingoWeb",
+            "technologies": "<img class=\"proyectos__icon\"  src=\"icons/skills/html5_icon.svg\" alt=\"HTML\" width=\"20px\"> <img class=\"proyectos__icon\" src=\"icons/skills/css_icon.svg\" alt=\"CSS\" width=\"20px\"> <img class=\"proyectos__icon\" src=\"icons/skills/javascript_icon.svg\" alt=\"JavaScript\" width=\"20px\"> <img class=\"proyectos__icon\" src=\"icons/skills/sketch_dark_icon.svg\" alt=\"Sketch\" width=\"20px\">"
+    },
+        {
+            "banner": "images/projects/GaliciaWeatherApp.webp",
+            "name": "GaliciaWeather App",
+            "description": "Aplicación del tiempo con ilustraciones de ciudades de Galicia.",
+            "url": "https://www.behance.net/gallery/155847275/Galicia-Weather-App",
+            "technologies": "<img class=\"proyectos__icon\"  src=\"icons/skills/svelte_icon.svg\" alt=\"Svelte\" width=\"20px\"> <img class=\"proyectos__icon\" src=\"icons/skills/sketch_dark_icon.svg\" alt=\"Sketch\" width=\"20px\">"
+        },
+    {
+        "banner": "images/projects/SoloHistoria.png",
+        "name": "SoloHistoria App",
+        "description": "Aplicación para aprender historia medieval.",
+        "url": "https://www.behance.net/gallery/97500747/SoloHistoria-App-Learning-history",
+        "technologies": "<img class=\"proyectos__icon\"  src=\"icons/skills/html5_icon.svg\" alt=\"HTML\" width=\"20px\"> <img class=\"proyectos__icon\" src=\"icons/skills/css_icon.svg\" alt=\"CSS\" width=\"20px\"> <img class=\"proyectos__icon\" src=\"icons/skills/javascript_icon.svg\" alt=\"JavaScript\" width=\"20px\"> <img class=\"proyectos__icon\" src=\"icons/skills/sketch_dark_icon.svg\" alt=\"Sketch\" width=\"20px\">"
+    },
+    {
+        "banner": "images/projects/ADM_Comunicaciones.png",
+        "name": "ADM Comunicaciones",
+        "description": "Página web corporativa y tienda online.",
+        "url": "https://admcomunicaciones.com/",
+        "technologies": "<img class=\"proyectos__icon\"  src=\"icons/skills/wordpress_icon.svg\" alt=\"Wordpress\" width=\"20px\"> <img class=\"proyectos__icon\" src=\"icons/skills/photoshop_icon.svg\" alt=\"Photoshop\" width=\"25px\">"
+},
+    {
+        "banner": "images/projects/DestinoViquingoLibro.png",
+        "name": "Destino Viquingo",
+        "description": "Maquetación y autoría del libro",
+        "url": "https://destinoviquingo.rubenterre.com",
+        "technologies": "<img class=\"proyectos__icon\" src=\"icons/skills/indesign_icon.svg\" alt=\"Indesign\" width=\"25px\"><img class=\"proyectos__icon\" src=\"icons/skills/illustrator_icon.svg\" alt=\"Illustrator\" width=\"25px\"> <img class=\"proyectos__icon\" src=\"icons/skills/photoshop_icon.svg\" alt=\"Photoshop\" width=\"25px\">"
+    },
+    {
+        "banner": "images/projects/Museo_Pobo_Galego.png",
+        "name": "Museo Pobo Galego",
+        "description": "Concept da páxina web do Museo do Pobo Galego",
+        "url": "https://www.behance.net/gallery/92767455/Museo-do-Pobo-Galego-Web-Design-Concept",
+        "technologies": "<img class=\"proyectos__icon\" src=\"icons/skills/sketch_dark_icon.svg\" alt=\"Sketch\" width=\"20px\">"
+    }
+]
+}

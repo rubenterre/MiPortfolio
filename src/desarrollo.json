@@ -1,0 +1,32 @@
+{
+    "desarrollo": [
+        {
+            "icon": "icons/skills/html5_icon.svg",
+            "name": "HTML"
+        },
+        {
+            "icon": "icons/skills/css_icon.svg",
+            "name": "CSS"
+        },
+        {
+            "icon": "icons/skills/javascript_icon.svg",
+            "name": "JavaScript"
+        },
+        {
+            "icon": "icons/skills/svelte_icon.svg",
+            "name": "Svelte"
+        },
+        {
+            "icon": "icons/skills/bootstrap_icon.svg",
+            "name": "Bootstrap"
+        },
+        {
+            "icon": "icons/skills/wordpress_icon.svg",
+            "name": "Wordpress"
+        },
+        {
+            "icon": "icons/skills/github_icon.svg",
+            "name": "GitHub"
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="29px" height="28px" viewBox="0 0 29 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>iconoir--design-pencil</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="onepage_desktop" transform="translate(-644, -997)" stroke="#FFFFFF" stroke-width="2.1">
+            <g id="SERVICIOS" transform="translate(249, 858)">
+                <g id="graphics" transform="translate(331, 125)">
+                    <g id="iconoir--design-pencil" transform="translate(66, 15.824)">
+                        <path d="M12.5,0 C5.59625,0 0,5.57155088 0,12.4448311 C0,19.3181113 5.59625,24.8896622 12.5,24.8896622 C19.40375,24.8896622 25,19.3181113 25,12.4448311 C25,5.57155088 19.40375,0 12.5,0" id="Path"></path>
+                        <polyline id="Path" points="8 23.8940757 8 14.827549 13 5.97351893 18 14.827549 18 23.8940757"></polyline>
+                        <path d="M8,14.9337973 C8,14.9337973 9.40875,17.9205568 10.5,17.9205568 C11.59125,17.9205568 13,14.9337973 13,14.9337973 C13,14.9337973 14.40875,17.9205568 15.5,17.9205568 C16.59125,17.9205568 18,14.9337973 18,14.9337973" id="Path"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

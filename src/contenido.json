@@ -1,0 +1,134 @@
+{
+    "contenido": [
+        {
+            "desarrollo": [
+                {
+                    "icon": "icons/skills/html5_icon.svg",
+                    "name": "HTML"
+                },
+                {
+                    "icon": "icons/skills/css_icon.svg",
+                    "name": "CSS"
+                },
+                {
+                    "icon": "icons/skills/javascript_icon.svg",
+                    "name": "JavaScript"
+                },
+                {
+                    "icon": "icons/skills/svelte_icon.svg",
+                    "name": "Svelte"
+                },
+                {
+                    "icon": "icons/skills/bootstrap_icon.svg",
+                    "name": "Bootstrap"
+                },
+                {
+                    "icon": "icons/skills/wordpress_icon.svg",
+                    "name": "Wordpress"
+                },
+                {
+                    "icon": "icons/skills/github_icon.svg",
+                    "name": "GitHub"
+                }
+            ]
+        },
+        {
+            "design": [
+                {
+                    "icon": "icons/skills/indesign_icon.svg",
+                    "name": "InDesign"
+                },
+                {
+                    "icon": "icons/skills/photoshop_icon.svg",
+                    "name": "Photoshop"
+                },
+                {
+                    "icon": "icons/skills/illustrator_icon.svg",
+                    "name": "Illustrator"
+                },
+                {
+                    "icon": "icons/skills/after-effects_icon.svg",
+                    "name": "After Effects"
+                },
+                {
+                    "icon": "icons/skills/sketch_dark_icon.svg",
+                    "name": "Sketch"
+                },
+                {
+                    "icon": "icons/skills/figma_icon.svg",
+                    "name": "Figma"
+                }
+            ]
+        },
+        { "experiencia": [
+                {
+                    "icon": "logos/ap-logo-blanco-medium-1.svg",
+                    "name": "Grupo Academia Postal",
+                    "profession": "Profesor titular",
+                    "date": "2023-2024",
+                    "description": "Docencia de certificados de profesionalidad relacionados con desarrollo web y IT de sistemas microinformáticos."
+                },
+                {
+                    "icon": "logos/RT_logo.svg",
+                    "name": "Freelance",
+                    "profession": "Desarrollador front-end",
+                    "date": "2022-2023",
+                    "description": "Desarrollo, mantenimiento y actualización de páginas web corporativas, blogs…"
+                },
+                {
+                    "icon": "logos/ADM-500x133_blanco.svg",
+                    "name": "ADM Comunicaciones",
+                    "profession": "Desarrollador & diseñador",
+                    "date": "2018-2019",
+                    "description": "Diseñador gráfico y maquetador web. Creación de web de empresa y papelería publicitaria y corporativa."
+                },
+                {
+                    "icon": "logos/INVBIT_LOGOTIPO.svg",
+                    "name": "INVBIT",
+                    "profession": "Diseñador gráfico & maquetador",
+                    "date": "2017 - 2018",
+                    "description": "Diseñador gráfico y maquetador web. Creación de páginas web y e-commerce (Wordpress...)."
+                }
+            ]            
+        },
+        {"formacion": [
+            {
+                "icon": "logos/forga_white.svg",
+                "name": "CERT. PROF. DOCENCIA DE LA FP PARA EL EMPLEO",
+                "institution": "FORGA Santiago",
+                "date": "2023-2024"
+            },
+            {
+                "icon": "logos/cec.svg",
+                "name": "CERT. PROF. DESARROLLO DE APLICACIONES CON TECNOLOGÍAS WEB",
+                "institution": "Confederación de empresarios de Coruña",
+                "date": "2020"
+            },
+            {
+                "icon": "logos/afundacion.svg",
+                "name": "FP GM PREIMPRESIÓN DIGITAL",
+                "institution": "Colegio Hogar Afundación",
+                "date": "2015 - 2017"
+            },
+            {
+                "icon": "logos/USC-Logo2.svg",
+                "name": "EXPERTO UNIV. EN GESTIÓN CULTURAL",
+                "institution": "Universidade de Santiago de Compostela",
+                "date": "2014 - 2015"
+            },
+            {
+                "icon": "logos/USC-Logo2.svg",
+                "name": "MASTER OFICIAL ESTUDOS MEDIEVAIS EUROPEOS",
+                "institution": "Universidade de Santiago de Compostela",
+                "date": "2012 - 2013"
+            },
+            {
+                "icon": "logos/USC-Logo2.svg",
+                "name": "LICENCIATURA EN HISTORIA",
+                "institution": "Universidade de Santiago de Compostela",
+                "date": "2006 - 2012"
+            }
+        ]
+        }
+    ]
+}

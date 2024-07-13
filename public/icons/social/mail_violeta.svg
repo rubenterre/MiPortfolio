@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="34px" height="34px" viewBox="0 0 34 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>mail-filled</title>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="pildora_mail" transform="translate(-13, -5)">
+            <g id="mail-filled" transform="translate(13, 5)">
+                <polygon id="Path" points="0 0 34 0 34 34 0 34"></polygon>
+                <path d="M31,11 L31,24.66787 C31,26.961816 29.2665501,28.8582016 27.0464,28.9927798 L26.8,29 L7.2,29 C4.97601935,29 3.13747353,27.2120166 3.007,24.9220217 L3,24.66787 L3,11 L16.223,20.0931408 L16.3854,20.1884477 C16.7732247,20.3838998 17.2267753,20.3838998 17.6146,20.1884477 L17.777,20.0931408 L31,11 L31,11 Z" id="Path" fill="#5C47E0" fill-rule="nonzero"></path>
+                <path d="M27.3901099,6 C28.9160126,6 30.2540031,6.80415544 31,8.01321021 L17.5,17 L4,8.01321021 C4.71878046,6.84749009 5.95798211,6.1010655 7.32590267,6.00987559 L7.60989011,6 L27.3901099,6 Z" id="Path" fill="#5C47E0" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

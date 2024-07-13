@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="23px" height="26px" viewBox="0 0 23 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="onepage_desktop" transform="translate(-640, -690)" stroke="#F3F3F3" stroke-width="2">
+            <g id="HEADER" transform="translate(250, 138)">
+                <g id="descargar-CV" transform="translate(318, 544)">
+                    <g id="Group" transform="translate(73, 9)">
+                        <polyline id="primary" points="15 15 11 19 7 15"></polyline>
+                        <path d="M10.5,18.6666667 L10.5,0 M15.75,9.33333333 L19.6875,9.33333333 C20.4123737,9.33333333 21,9.930287 21,10.6666667 L21,22.6666667 C21,23.4030463 20.4123737,24 19.6875,24 L1.3125,24 C0.587626266,24 0,23.4030463 0,22.6666667 L0,10.6666667 C0,9.930287 0.587626266,9.33333333 1.3125,9.33333333 L5.25,9.33333333" id="primary-2"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

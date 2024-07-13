@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="25px" viewBox="0 0 26 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>mdi--teacher</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="onepage_desktop" transform="translate(-949, -1002)" fill="#FFFFFF" fill-rule="nonzero">
+            <g id="SERVICIOS" transform="translate(249, 858)">
+                <g id="docencia" transform="translate(658, 124)">
+                    <g id="mdi--teacher" transform="translate(42, 20)">
+                        <path d="M23.4634146,18.75 C24.864332,18.75 26,17.6307119 26,16.25 L26,2.5 C26,1.11928813 24.864332,0 23.4634146,0 L10.0956098,0 C10.5395122,0.7625 10.7804878,1.625 10.7804878,2.5 L23.4634146,2.5 L23.4634146,16.25 L12.0487805,16.25 L12.0487805,18.75 M17.1219512,6.25 L17.1219512,8.75 L9.51219512,8.75 L9.51219512,25 L6.97560976,25 L6.97560976,17.5 L4.43902439,17.5 L4.43902439,25 L1.90243902,25 L1.90243902,15 L0,15 L0,8.75 C0,7.36928813 1.13566795,6.25 2.53658537,6.25 L17.1219512,6.25 Z M8.24390244,2.5 C8.24390244,3.88071187 7.10823449,5 5.70731707,5 C4.30639966,5 3.17073171,3.88071187 3.17073171,2.5 C3.17073171,1.11928813 4.30639966,0 5.70731707,0 C7.10823449,0 8.24390244,1.11928813 8.24390244,2.5" id="Shape"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

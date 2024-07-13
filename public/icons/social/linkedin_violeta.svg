@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="36px" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>brand-linkedin</title>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="pildora_linkedin" transform="translate(-12, -4)">
+            <g id="brand-linkedin" transform="translate(12, 4)">
+                <polygon id="Path" points="0 0 36 0 36 36 0 36"></polygon>
+                <path d="M6,9 C6,7.34314575 7.34314575,6 9,6 L27,6 C28.6568542,6 30,7.34314575 30,9 L30,27 C30,28.6568542 28.6568542,30 27,30 L9,30 C7.34314575,30 6,28.6568542 6,27 L6,9 Z" id="Path" stroke="#5C47E0" stroke-width="1.5" fill="#5C47E0" stroke-linecap="round" stroke-linejoin="round"></path>
+                <line x1="12" y1="16" x2="12" y2="24" id="Path" stroke="#171819" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></line>
+                <line x1="12" y1="11.99" x2="12" y2="12.01" id="Path" stroke="#171819" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></line>
+                <line x1="18" y1="24" x2="18" y2="16" id="Path" stroke="#171819" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></line>
+                <path d="M24,24 L24,19.2 C24,17.4326888 22.6568542,16 21,16 C19.3431458,16 18,17.4326888 18,19.2" id="Path" stroke="#171819" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path>
+            </g>
+        </g>
+    </g>
+</svg>
