@@ -22,6 +22,74 @@ En él encontrarás información sobre mis habilidades, proyectos, experiencia l
 [![Sketch](https://img.shields.io/badge/Sketch-fb8c00?style=for-the-badge&logo=sketch&logoColor=white&labelColor=101010)]()
 
 
+## Estructura del proyecto
+
+```
+/
+├── public/
+│   ├── favicon/
+│   │   └── favicon.ico
+│   ├── icons/
+│   │    └── skills/
+│   │    │  └── (imágenes de iconos de habilidades)
+│   │    └── social/
+│   │       └── (imágenes de iconos de redes sociales)
+│   ├── images/
+│   │    └── (imágenes de proyectos, libro...)
+│   └── logos/
+│        └── (imágenes de logos de empresas e instituciones)
+├── src/
+│   ├── main.js
+│   ├── desarrollo.json
+│   ├── design.json
+│   ├── experiencia.json
+│   ├── formacion.json
+│   ├── proyectos.json
+│   ├── components/
+│   │    └── experiencia.js
+│   │    └── footer.js
+│   │    └── formacion.js
+│   │    └── habilidades.js
+│   │    └── inicio.js
+│   │    └── materialize.js
+│   │    └── projects.js
+│   │    └── sidenav.js
+│   └── styles/
+│        ├──components/
+│        │    └── _global.scss
+│        │    └── _grid.scss
+│        │    └── _navbar.scss
+│        │    └── _normalize.scss
+│        │    └── _sidenav.scss
+│        │    └── _variables.scss
+│        ├── fonts/
+│        │    └── Poppins-Bold.ttf
+│        │    └── Poppins-Medium.ttf
+│        │    └── Poppins-Regular.ttf
+│        └── style.scss
+│        └── customn-materialize.scss
+├── package.json
+├── package-lock.json
+├── LICENSE
+├── index.html
+├── .gitignore
+├── .gitatributes
+└── README.md
+```
+## Metodologías y mejores prácticas
+
+### Metodología BEM
+
+Para mantener un código CSS organizado y modular, he utilizado la metodología BEM (Block, Element, Modifier). Esto permite un fácil mantenimiento y escalabilidad del proyecto.
+
+### Accesibilidad
+
+He seguido las mejores prácticas para asegurar que la página sea accesible para todos los usuarios, incluyendo aquellos con discapacidades. Esto incluye el uso adecuado de etiquetas ARIA, contraste de colores, y navegación mediante teclado.
+
+### Rendimiento
+
+Para optimizar el rendimiento, he minimizado el uso de recursos y asegurado que la página se cargue rápidamente. Esto incluye la compresión de imágenes y el uso eficiente de scripts.
+
 ## Instalación y Uso
 
 1. Clona este repositorio:
