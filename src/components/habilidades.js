@@ -1,9 +1,10 @@
 import { desarrollo } from '../desarrollo.json';
 import { design } from '../design.json';
+import { docencia } from '../docencia.json';
 
 export function habilidades(element) {
-	  
-document.querySelector('#habilidades').innerHTML = `
+
+	document.querySelector('#habilidades').innerHTML = `
 <div class="container">
 		<div class="row">
 			<div class="col s12">
@@ -27,58 +28,90 @@ document.querySelector('#habilidades').innerHTML = `
 				</template>
 					</div>
 					<h3 class="habilidades__h3">Diseño gráfico</h3>
-					<div id="habilidadesCardsDesign" class="habilidades__cards">
-					<template id="designHabilidades">
-				<div class="habilidades__card">
-				<img
-					class="habilidades__icon"
-					src="icons/skills/{{ icon }}.svg"
-					alt="{{ name }}"
-				/>
-			    <h4 class="habilidades__h4">{{ name }}</h4>
-		        </div>
-				</template>
-					</div>
+						<div id="habilidadesCardsDesign" class="habilidades__cards">
+							<template id="designHabilidades">
+								<div class="habilidades__card">
+									<img
+										class="habilidades__icon"
+										src="icons/skills/{{ icon }}.svg"
+										alt="{{ name }}"
+									/>
+			    					<h4 class="habilidades__h4">{{ name }}</h4>
+		        				</div>
+							</template>
+						</div>
+						<h3 class="habilidades__h3">Docencia</h3>
+						<div id="habilidadesCardsDocencia" class="habilidades__cards">
+							<template id="docenciaHabilidades">
+								<div class="habilidades__card">
+									<img
+										class="habilidades__icon"
+										src="icons/skills/{{ icon }}.svg"
+										alt="{{ name }}"
+									/>
+			    					<h4 class="habilidades__h4">{{ name }}</h4>
+		        				</div>
+							</template>
+						</div>
 				</div>
 			</div>
 		</div>
 	</div>
     `
-// Habilidades de desarrollo
+	// Habilidades de desarrollo
 
 	const desarrolloJSON = desarrollo;
 	console.log(desarrolloJSON)
-	  
-	  const template = document.getElementById('desarrolloHabilidades');
-	  const contenedorHabilidades = document.querySelector('#habilidadesCards');
-	  
-	  desarrolloJSON.forEach(desarrollo => {
+
+	const template = document.getElementById('desarrolloHabilidades');
+	const contenedorHabilidades = document.querySelector('#habilidadesCards');
+
+	desarrolloJSON.forEach(desarrollo => {
 		const clon = template.content.cloneNode(true);
-	  
+
 		clon.querySelector('.habilidades__icon').src = desarrollo.icon;
 		clon.querySelector('.habilidades__icon').alt = desarrollo.name;
 		clon.querySelector('.habilidades__h4').textContent = desarrollo.name;
-	  
+
 		contenedorHabilidades.appendChild(clon);
-	  });
+	});
 
-	  //Habilidades de diseño
+	//Habilidades de diseño
 
-	  const designJSON = design;
-	  console.log(designJSON)
-		
-		const templateDesign = document.getElementById('designHabilidades');
-		const contenedorDesign = document.querySelector('#habilidadesCardsDesign');
-		
-		designJSON.forEach(design => {
-		  const clon = templateDesign.content.cloneNode(true);
-		
-	  
-		  clon.querySelector('.habilidades__icon').src = design.icon;
-		  clon.querySelector('.habilidades__icon').alt = design.name;
-		  clon.querySelector('.habilidades__h4').textContent = design.name;
-		
-		  contenedorDesign.appendChild(clon);
+	const designJSON = design;
+	console.log(designJSON)
+
+	const templateDesign = document.getElementById('designHabilidades');
+	const contenedorDesign = document.querySelector('#habilidadesCardsDesign');
+
+	designJSON.forEach(design => {
+		const clon = templateDesign.content.cloneNode(true);
+
+
+		clon.querySelector('.habilidades__icon').src = design.icon;
+		clon.querySelector('.habilidades__icon').alt = design.name;
+		clon.querySelector('.habilidades__h4').textContent = design.name;
+
+		contenedorDesign.appendChild(clon);
+	});
+
+		//Habilidades de docencia
+
+		const docenciaJSON = docencia;
+		console.log(docenciaJSON)
+	
+		const templateDocencia = document.getElementById('docenciaHabilidades');
+		const contenedorDocencia = document.querySelector('#habilidadesCardsDocencia');
+	
+		docenciaJSON.forEach(docencia => {
+			const clon = templateDocencia.content.cloneNode(true);
+	
+	
+			clon.querySelector('.habilidades__icon').src = docencia.icon;
+			clon.querySelector('.habilidades__icon').alt = docencia.name;
+			clon.querySelector('.habilidades__h4').textContent = docencia.name;
+	
+			contenedorDocencia.appendChild(clon);
 		});
 }
 

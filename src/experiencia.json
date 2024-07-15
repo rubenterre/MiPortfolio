@@ -1,5 +1,12 @@
 { "experiencia": [
     {
+        "icon": "logos/gri_logo.svg",
+        "name": "Gabinete de recolocación industrial",
+        "profession": "Profesor titular",
+        "date": "2024",
+        "description": "Docencia de cursos relacionados con el desarrollo web y contenidos digitales"
+    },
+    {
         "icon": "logos/ap-logo-blanco-medium-1.svg",
         "name": "Grupo Academia Postal",
         "profession": "Profesor titular",

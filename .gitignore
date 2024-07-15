@@ -132,3 +132,4 @@ dist
 # System files
 
 .DS_Store
+public/icons/.DS_Store

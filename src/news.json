@@ -1,0 +1,30 @@
+{
+    "novedades": [
+        {
+            "img": "images/blog/RadioGalega_noticia.png",
+            "title": "Entrevista en A vivir Galicia",
+            "date": "1 Enero 2017",
+            "description": "Entrevista en sobre el libro Os viquingos na comarca do Salnés",
+            "url": "http://www.crtvg.es/rg/a-carta/conecer-galicia-conecer-galicia-do-dia-21-01-2017-2650682"
+        },
+        {
+            "img": "images/blog/FarodeVigo_2015.png",
+            "title": "Entrevista en La Voz de Galicia",
+            "date": "11 Noviembre 2015",
+            "description": "Entrevista sobre los vikingos en Galicia"
+        },
+        {
+            "img": "images/blog/LaVozGalicia_Salnes.png",
+            "title": "Curso de verano USC",
+            "date": "7 Julio 2016",
+            "description": "Ponencia en el curso Arte, Historia, Xeografía e cultura na comarca do Salnés"
+        },
+        {
+            "img": "images/blog/LaVozDeGalicia1_noticia.png",
+            "title": "Artículo en La Voz de Galicia",
+            "date": "11 Julio 2016",
+            "description": "Sobre el libro Os viquingos na comarca do Salnés"
+        }
+      
+    ]
+}

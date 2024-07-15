@@ -8,6 +8,7 @@ import { projects } from './components/projects.js'
 import { experiencias } from './components/experiencia.js'
 import { formaciones } from './components/formacion.js'
 import { footer } from './components/footer.js'
+import { noticias } from './components/noticias.js'
 
 sidenav()
 
@@ -53,6 +54,8 @@ document.querySelector('#app').innerHTML = `
 </section>
 <section id="formacion" class="formacion">
 </section>
+<section id="noticias" class="noticias">
+</section>
 <footer id="footer" class="footer">
 </footer>
 `
@@ -61,4 +64,5 @@ habilidades(document.querySelector('#habilidades'))
 projects(document.querySelector('#projects'))
 experiencias(document.querySelector('#experiencia'))
 formaciones(document.querySelector('#formacion'))
+noticias(document.querySelector('#noticias'))
 footer(document.querySelector('#footer'))
