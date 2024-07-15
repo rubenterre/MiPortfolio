@@ -1,4 +1,4 @@
-import { experiencia } from '../experiencia.json';
+import { experiencia } from '../json/experiencia.json';
 
 export function experiencias(element) {
     document.querySelector('#experiencia').innerHTML = `

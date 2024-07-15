@@ -1,4 +1,4 @@
-import { proyectos } from '../proyectos.json';
+import { proyectos } from '../json/proyectos.json';
 
 export function projects(element) {
 	  
@@ -37,12 +37,33 @@ export function projects(element) {
 					</template>
 				</div>
 				<div class="proyectos__info">
-					<a href="" class="proyectos__trabajos">VER MÁS TRABAJOS</a>
+					<a class="proyectos__trabajos waves-effect waves-light btn modal-trigger" href="#modal1">VER MÁS TRABAJOS</a>
+				</div>
+				<!-- Modal Structure -->
+				<div id="modal1" class="proyectos__modal modal">
+  					<div class="modal-content">
+    					<h4 class="modal__h4">MÁS PROYECTOS</h4>
+    					<p class="modal__p">Puedes ver más proyectos en las siguientes plataformas:</p>
+						<div class="modal__social">
+							<img class="modal__icon" src="/icons/social/Github_modal.svg" srcset="/icons/social/Github_modal.webp" alt="Repositorios de desarrollo en GitHub">
+							<img class="modal__icon" src="/icons/social/Behance_modal.svg" srcset="/icons/social/Behance_modal.webp" alt="Porfolio de proyectos en Behance">
+						</div>
+  					</div>
+  					<div class="modal-footer modal__footer">
+    				<a href="#!" class="modal__boton modal-close waves-effect btn-flat">Volver</a>
+  					</div>
 				</div>
 			</div>
 		</div>
 	</div>
     `
+	document.addEventListener('DOMContentLoaded', function() {
+		var elems = document.querySelectorAll('.modal');
+		var instances = M.Modal.init(elems, {
+		  // specify options here
+		});
+	  });
+
     // Habilidades de proyectos
 
 	const proyectosJSON = proyectos;

@@ -33,6 +33,10 @@ $fuente-principal: Poppins-Regular;
 $fuente-secundaria: Poppins-Medium;
 $fuente-bold: Poppins-Bold;
 
+html{
+  scroll-behavior: smooth;
+}
+
 body {
   background: $color-fondo;
   color: $color-principal;
@@ -99,6 +103,7 @@ button {
     transition-duration: 300ms;
     transition-property: transform;
     transition-timing-function: ease-out;
+    border: 2px solid white;
   }
 }
 
@@ -109,8 +114,15 @@ button {
   color: $color-principal;
 
   &:hover {
-    @include hover-effect()
+    transform: scale(1.05, 1.05) translateZ(0px) translate3d(0px, 0px, 0px);
+    transition-duration: 300ms;
+    transition-property: transform;
+    transition-timing-function: ease-out;
   }
+}
+
+.header__nav{
+  background: $color-fondo;
 }
 
 .sidenav {
@@ -138,6 +150,7 @@ button {
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
+  margin-top: 40px;
 }
 
 .inicio__detalle {
@@ -158,7 +171,7 @@ button {
 
 .inicio__h1--subtitulo {
   margin-top: 0px;
-  color: $color-secundario;
+  font-size: 2rem;
 }
 
 .social {
@@ -405,6 +418,52 @@ button {
   padding: 5px 0px;
 }
 
+.proyectos__modal{
+  background: $color-terciario;
+  text-align: center;
+}
+
+.modal__social{
+  display: flex;
+  place-content: center;
+  align-items: center;
+  height: 80px;
+  gap: 30px;
+}
+
+.modal__h4{
+  font-family: $fuente-principal;
+  color: $color-principal;
+  font-size: 1rem;
+  padding-bottom: 10px;
+}
+
+.modal__p{
+  font-family: $fuente-principal;
+  color: $color-principal;
+  font-size: .8rem;
+  padding-bottom: 10px;
+}
+
+.modal__icon{
+  width: 60px;
+}
+
+.modal__footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal__boton{
+  background-color: $color-secundario;
+  font-family: $fuente-principal;
+  color: $color-principal;
+  padding: 10px 30px;
+  border-radius: 8px;
+}
+
+
 @media screen and (max-width:480px) {
   .proyectos__card {
     width: 100%;
@@ -618,11 +677,14 @@ button {
   background: $color-terciario;
   border: 1px solid rgba(151, 151, 151, 1);
   border-radius: 12px;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(103, 103, 103, 0.25) 0px 50px 100px -20px, rgba(255, 255, 255, 0.3) 0px 30px 60px -30px;
+  @include hover-effect()
 }
 
 .noticias__img{
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;
+  width: 100%;
 }
 
 .noticias__detalles{
@@ -680,6 +742,12 @@ button {
   padding: 10px 0px;
 }
 
+.footer__a{
+  font-family: $fuente-principal;
+  color: $color-principal;
+  text-decoration: underline;
+}
+
 .footer__span {
   font-weight: 700;
 }
@@ -727,4 +795,15 @@ button {
   background-color: white;
   color: $color-fondo;
   transition: all 1s ease;
+}
+
+// UP TO TOP
+
+.uptotop{
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  background-color: $color-secundario;
+  padding: 5px;
+  border-radius: 8px;
 }

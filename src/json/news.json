@@ -1,6 +1,13 @@
 {
     "novedades": [
         {
+            "img": "images/blog/DestinoViquingo_libro.png",
+            "title": "Presentación Destino Viquingo",
+            "date": "26 Junio 2024",
+            "description": "Presentación del libro Destino Viquingo: A comarca do Salnés",
+            "url": "http://destinoviquingo.rubenterre.com"
+        },
+        {
             "img": "images/blog/RadioGalega_noticia.png",
             "title": "Entrevista en A vivir Galicia",
             "date": "1 Enero 2017",

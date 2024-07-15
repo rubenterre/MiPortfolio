@@ -17,6 +17,10 @@
             "name": "Svelte"
         },
         {
+            "icon": "icons/skills/vite_icon.svg",
+            "name": "ViteJS"
+        },
+        {
             "icon": "icons/skills/bootstrap_icon.svg",
             "name": "Bootstrap"
         },

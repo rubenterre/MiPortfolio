@@ -1,4 +1,4 @@
-import { novedades } from '../news.json';
+import { novedades } from '../json/news.json';
 
 export function noticias(element) {
 
@@ -36,7 +36,7 @@ export function noticias(element) {
                 </template>
             </div>
             	<div class="proyectos__info">
-					<a href="" class="proyectos__trabajos">VER MÁS</a>
+					<a href="/blog.html" class="proyectos__trabajos">VER MÁS</a>
 				</div>
             </div>
         </div>

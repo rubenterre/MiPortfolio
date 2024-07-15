@@ -39,12 +39,13 @@ En él encontrarás información sobre mis habilidades, proyectos, experiencia l
 │   └── logos/
 │        └── (imágenes de logos de empresas e instituciones)
 ├── src/
-│   ├── main.js
-│   ├── desarrollo.json
-│   ├── design.json
-│   ├── experiencia.json
-│   ├── formacion.json
-│   ├── proyectos.json
+│   ├── json/
+│   │    └── main.js
+│   │    └── desarrollo.json
+│   │    └── design.json
+│   │    └── experiencia.json
+│   │    └── formacion.json
+│   │    └── proyectos.json
 │   ├── components/
 │   │    └── experiencia.js
 │   │    └── footer.js

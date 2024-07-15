@@ -1,4 +1,4 @@
-import { formacion } from '../formacion.json';
+import { formacion } from '../json/formacion.json';
 
 export function formaciones(element) {
     document.querySelector('#formacion').innerHTML = `
