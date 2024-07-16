@@ -25,7 +25,7 @@ export function Header(element) {
     <ul class="sidenav" id="mobile-demo">
   <li>
     <div class="user-view">
-    <a href="#user"><img src="Ruben_Terre_Logo_blanco_131119.svg"></a>
+    <a href="#user"><img src="Ruben_Terre_Logo_blanco_131119.svg" alt="Logo oficial de Rubén Terré"></a>
     </div>
   </li>
         <li class="sidenav__li"><a class="sidenav__a" href="#habilidades">HABILIDADES</a></li>
