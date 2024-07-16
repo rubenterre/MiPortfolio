@@ -12,6 +12,8 @@ import { Noticias } from './components/Noticias.js'
 import { sidenav } from './components/sidenav.js'
 import { Uptotop } from './components/Uptotop.js'
 
+M.AutoInit();
+
 document.querySelector('#app').innerHTML = `
 <header id="header" class="header">
 </header>

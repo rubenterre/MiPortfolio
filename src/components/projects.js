@@ -1,5 +1,6 @@
 import { proyectos } from '../json/proyectos.json';
 
+
 export function Projects(element) {
 	  
     document.querySelector('#trabajos').innerHTML = `
@@ -37,7 +38,7 @@ export function Projects(element) {
 					</template>
 				</div>
 				<div class="proyectos__info">
-					<a class="proyectos__trabajos waves-effect waves-light btn modal-trigger" href="#modal1">VER MÁS TRABAJOS</a>
+					<button data-target="modal1" class="btn modal-trigger proyectos__trabajos waves-effect waves-light" >VER MÁS TRABAJOS</button>
 				</div>
 				<!-- Modal Structure -->
 				<div id="modal1" class="proyectos__modal modal">
@@ -59,9 +60,7 @@ export function Projects(element) {
     `
 	document.addEventListener('DOMContentLoaded', function() {
 		var elems = document.querySelectorAll('.modal');
-		var instances = M.Modal.init(elems, {
-		  // specify options here
-		});
+		var instances = M.Modal.init(elems);
 	  });
 
     // Habilidades de proyectos
