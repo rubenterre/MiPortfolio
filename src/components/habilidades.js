@@ -2,7 +2,7 @@ import { desarrollo } from '../json/desarrollo.json';
 import { design } from '../json/design.json';
 import { docencia } from '../json/docencia.json';
 
-export function habilidades(element) {
+export function Habilidades(element) {
 
 	document.querySelector('#habilidades').innerHTML = `
 <div class="container">

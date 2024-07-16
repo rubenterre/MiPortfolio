@@ -1,11 +1,11 @@
 
-export function header(element) {
+export function Header(element) {
 	  
     document.querySelector('#header').innerHTML = `
 <div class="container">
 <div class="navbar-fixed">
 <nav class="header__nav">
-    <div class="nav-wrapper">
+    <div class="nav-wrapper header__wrapper">
         <a href="#" data-target="mobile-demo" class="sidenav-trigger"><img src="/icons/menu_icon.svg" alt="Menú de secciones" /></a>
         <ul id="nav-mobile" class="menu left hide-on-med-and-down">
             <li class="menu__li"><a class="menu__a"  href="#habilidades">HABILIDADES</a></li>

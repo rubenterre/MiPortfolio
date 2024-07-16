@@ -1,4 +1,4 @@
-export function uptotop(element) {
+export function Uptotop(element) {
 	  
     document.querySelector('#uptotop').innerHTML = `
     <div class="uptotop__div">

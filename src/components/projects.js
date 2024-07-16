@@ -1,6 +1,6 @@
 import { proyectos } from '../json/proyectos.json';
 
-export function projects(element) {
+export function Projects(element) {
 	  
     document.querySelector('#projects').innerHTML = `
 	<div class="container">
@@ -45,8 +45,8 @@ export function projects(element) {
     					<h4 class="modal__h4">MÁS PROYECTOS</h4>
     					<p class="modal__p">Puedes ver más proyectos en las siguientes plataformas:</p>
 						<div class="modal__social">
-							<img class="modal__icon" src="/icons/social/Github_modal.svg" srcset="/icons/social/Github_modal.webp" alt="Repositorios de desarrollo en GitHub">
-							<img class="modal__icon" src="/icons/social/Behance_modal.svg" srcset="/icons/social/Behance_modal.webp" alt="Porfolio de proyectos en Behance">
+							<a href="https://github.com/rubenterre" target="_blank"> <img class="modal__icon" src="/icons/social/Github_modal.svg" srcset="/icons/social/Github_modal.webp" alt="Repositorios de desarrollo en GitHub"></a>
+							<a href="https://www.behance.net/rubenterre" target="_blank"> <img class="modal__icon" src="/icons/social/Behance_modal.svg" srcset="/icons/social/Behance_modal.webp" alt="Porfolio de proyectos en Behance"></a>
 						</div>
   					</div>
   					<div class="modal-footer modal__footer">

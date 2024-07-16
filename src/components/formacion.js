@@ -1,6 +1,6 @@
 import { formacion } from '../json/formacion.json';
 
-export function formaciones(element) {
+export function Formaciones(element) {
     document.querySelector('#formacion').innerHTML = `
     <div class="container">
 		<div class="row">

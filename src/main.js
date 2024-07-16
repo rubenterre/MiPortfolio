@@ -1,16 +1,16 @@
 import './styles/custom_materialize.scss'
 import './styles/style.scss'
 
-import { header } from './components/header.js'
-import { inicio } from './components/inicio.js'
-import { habilidades } from './components/habilidades.js'
-import { projects } from './components/projects.js'
-import { experiencias } from './components/experiencia.js'
-import { formaciones } from './components/formacion.js'
-import { footer } from './components/footer.js'
-import { noticias } from './components/noticias.js'
+import { Header } from './components/Header.js'
+import { Inicio } from './components/Inicio.js'
+import { Habilidades } from './components/Habilidades.js'
+import { Projects } from './components/Projects.js'
+import { Experiencias } from './components/Experiencia.js'
+import { Formaciones } from './components/Formacion.js'
+import { Footer } from './components/Footer.js'
+import { Noticias } from './components/Noticias.js'
 import { sidenav } from './components/sidenav.js'
-import { uptotop } from './components/uptotop.js'
+import { Uptotop } from './components/Uptotop.js'
 
 document.querySelector('#app').innerHTML = `
 <header id="header" class="header">
@@ -31,14 +31,14 @@ document.querySelector('#app').innerHTML = `
 </footer>
 <div id="uptotop" class="uptotop"></div>
 `
-inicio(document.querySelector('#inicio'))
-header(document.querySelector('#header'))
-habilidades(document.querySelector('#habilidades'))
-projects(document.querySelector('#projects'))
-experiencias(document.querySelector('#experiencia'))
-formaciones(document.querySelector('#formacion'))
-noticias(document.querySelector('#noticias'))
-footer(document.querySelector('#footer'))
-uptotop(document.querySelector('#uptotop'))
+Inicio(document.querySelector('#inicio'))
+Header(document.querySelector('#header'))
+Habilidades(document.querySelector('#habilidades'))
+Projects(document.querySelector('#projects'))
+Experiencias(document.querySelector('#experiencia'))
+Formaciones(document.querySelector('#formacion'))
+Noticias(document.querySelector('#noticias'))
+Footer(document.querySelector('#footer'))
+Uptotop(document.querySelector('#uptotop'))
 
 sidenav()

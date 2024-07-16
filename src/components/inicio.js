@@ -1,4 +1,4 @@
-export function inicio(element) {
+export function Inicio(element) {
 document.querySelector('#inicio').innerHTML = `
 	<div class="container">
 		<div class="row">

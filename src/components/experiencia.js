@@ -1,6 +1,6 @@
 import { experiencia } from '../json/experiencia.json';
 
-export function experiencias(element) {
+export function Experiencias(element) {
     document.querySelector('#experiencia').innerHTML = `
     <div class="container">
         <div class="row">

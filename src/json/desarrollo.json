@@ -13,6 +13,10 @@
             "name": "JavaScript"
         },
         {
+            "icon": "icons/skills/sass_icon.svg",
+            "name": "SASS"
+        },
+        {
             "icon": "icons/skills/svelte_icon.svg",
             "name": "Svelte"
         },
@@ -23,6 +27,10 @@
         {
             "icon": "icons/skills/bootstrap_icon.svg",
             "name": "Bootstrap"
+        },
+        {
+            "icon": "icons/skills/firebase_icon.svg",
+            "name": "Firebase"
         },
         {
             "icon": "icons/skills/wordpress_icon.svg",

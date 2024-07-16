@@ -143,10 +143,22 @@ button {
   background-color: $color-cuaternario;
 }
 
+.header__wrapper{
+  width: 70%;
+  margin: 0 auto;
+}
+
+@media screen and (max-width:768px) {
+  .header__wrapper{
+    width: 100%;
+    margin: 0px;
+  }
+}
+
 // INICIO
 
 .inicio {
-  background: url('images/fondo_morphism1.png');
+  background: url('images/fondo_morphism1.avif');
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -730,7 +742,7 @@ button {
 // FOOTER
 
 .footer {
-  background: url('images/fondo_morphism2.png');
+  background: url('images/fondo_morphism2.avif');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -750,6 +762,16 @@ button {
 
 .footer__span {
   font-weight: 700;
+}
+
+.footer__repositorio{
+  padding: 10px;
+  background: rgb(92,71,224);
+background: linear-gradient(0deg, rgba(92,71,224,1) 0%, rgba(9,9,121,1) 35%, rgba(0,0,0,0) 100%);
+}
+
+.footer__creditos{
+  background: $color-fondo;
 }
 
 .contacto {

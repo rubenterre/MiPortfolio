@@ -47,13 +47,15 @@ En él encontrarás información sobre mis habilidades, proyectos, experiencia l
 │   │    └── formacion.json
 │   │    └── proyectos.json
 │   ├── components/
-│   │    └── experiencia.js
-│   │    └── footer.js
-│   │    └── formacion.js
-│   │    └── habilidades.js
-│   │    └── inicio.js
+│   │    └── Experiencia.js
+│   │    └── Header.js
+│   │    └── Footer.js
+│   │    └── Formacion.js
+│   │    └── Habilidades.js
+│   │    └── Inicio.js
 │   │    └── materialize.js
-│   │    └── projects.js
+│   │    └── Projects.js
+│   │    └── Noticias.js
 │   │    └── sidenav.js
 │   └── styles/
 │        ├──components/
@@ -63,6 +65,7 @@ En él encontrarás información sobre mis habilidades, proyectos, experiencia l
 │        │    └── _normalize.scss
 │        │    └── _sidenav.scss
 │        │    └── _variables.scss
+│        │    └── _modal.scss
 │        ├── fonts/
 │        │    └── Poppins-Bold.ttf
 │        │    └── Poppins-Medium.ttf

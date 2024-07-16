@@ -1,6 +1,6 @@
 import { novedades } from '../json/news.json';
 
-export function noticias(element) {
+export function Noticias(element) {
 
 	document.querySelector('#noticias').innerHTML = `
     <div class="container">
@@ -36,7 +36,7 @@ export function noticias(element) {
                 </template>
             </div>
             	<div class="proyectos__info">
-					<a href="/blog.html" class="proyectos__trabajos">VER MÁS</a>
+					<a href="https://www.linkedin.com/in/rubenterrelameiro/recent-activity/all/" target="_blank" class="proyectos__trabajos">VER MÁS EN LINKEDIN</a>
 				</div>
             </div>
         </div>
