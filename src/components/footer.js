@@ -61,7 +61,7 @@ document.querySelector('#footer').innerHTML = `
 <img src="https://img.shields.io/badge/JavaScript-%23F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black
 " alt="JavaScript">
 </p>
-      <p class="footer__p"><a class="footer__a" href="https://github.com/rubenterre/MiPortfolio">Ver repositorio</a></p>
+      <p class="footer__p"><a class="footer__a" target="_blank" href="https://github.com/rubenterre/MiPortfolio">Ver repositorio</a></p>
   </div>    
   <div class="footer__creditos">
       <p class="footer__p">

@@ -19,7 +19,7 @@ document.querySelector('#app').innerHTML = `
 </section>
 <section id="habilidades" class="habilidades">
 </section>
-<section id="projects" class="proyectos">
+<section id="trabajos" class="proyectos">
 </section>
 <section id="experiencia" class="experiencia">
 </section>
@@ -34,7 +34,7 @@ document.querySelector('#app').innerHTML = `
 Inicio(document.querySelector('#inicio'))
 Header(document.querySelector('#header'))
 Habilidades(document.querySelector('#habilidades'))
-Projects(document.querySelector('#projects'))
+Projects(document.querySelector('#trabajos'))
 Experiencias(document.querySelector('#experiencia'))
 Formaciones(document.querySelector('#formacion'))
 Noticias(document.querySelector('#noticias'))

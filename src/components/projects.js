@@ -2,7 +2,7 @@ import { proyectos } from '../json/proyectos.json';
 
 export function Projects(element) {
 	  
-    document.querySelector('#projects').innerHTML = `
+    document.querySelector('#trabajos').innerHTML = `
 	<div class="container">
 		<div class="row">
 			<div class="col s12">
