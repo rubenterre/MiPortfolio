@@ -28,7 +28,7 @@ En él encontrarás información sobre mis habilidades, proyectos, experiencia l
 /
 ├── public/
 │   ├── favicon/
-│   │   └── favicon.ico
+│   │   └── (favicon en varios tamaños)
 │   ├── icons/
 │   │    └── skills/
 │   │    │  └── (imágenes de iconos de habilidades)
@@ -36,11 +36,14 @@ En él encontrarás información sobre mis habilidades, proyectos, experiencia l
 │   │       └── (imágenes de iconos de redes sociales)
 │   ├── images/
 │   │    └── (imágenes de proyectos, libro...)
-│   └── logos/
-│        └── (imágenes de logos de empresas e instituciones)
+│   ├── logos/
+│   │    └── (imágenes de logos de empresas e instituciones)
+│   ├── Ruben_Arturo_Terre_Lameiro_CV_2024.pdf
+│   ├── Ruben_Terre_Logo.svg
+│   └── rubenterre_OGraph.jpg
+│ 
 ├── src/
 │   ├── json/
-│   │    └── main.js
 │   │    └── desarrollo.json
 │   │    └── design.json
 │   │    └── experiencia.json
@@ -57,21 +60,22 @@ En él encontrarás información sobre mis habilidades, proyectos, experiencia l
 │   │    └── Projects.js
 │   │    └── Noticias.js
 │   │    └── sidenav.js
-│   └── styles/
-│        ├──components/
-│        │    └── _global.scss
-│        │    └── _grid.scss
-│        │    └── _navbar.scss
-│        │    └── _normalize.scss
-│        │    └── _sidenav.scss
-│        │    └── _variables.scss
-│        │    └── _modal.scss
-│        ├── fonts/
-│        │    └── Poppins-Bold.ttf
-│        │    └── Poppins-Medium.ttf
-│        │    └── Poppins-Regular.ttf
-│        └── style.scss
-│        └── customn-materialize.scss
+│   ├─ styles/
+│   │    ├──components/
+│   │    │    └── _global.scss
+│   │    │    └── _grid.scss
+│   │    │    └── _navbar.scss
+│   │    │    └── _normalize.scss
+│   │    │    └── _sidenav.scss
+│   │    │    └── _variables.scss
+│   │    │    └── _modal.scss
+│   │    ├── fonts/
+│   │    │    └── Poppins-Bold.ttf
+│   │    │    └── Poppins-Medium.ttf
+│   │    │    └── Poppins-Regular.ttf
+│   │    └── style.scss
+│   │    └── customn-materialize.scss
+│   └── main.js
 ├── package.json
 ├── package-lock.json
 ├── LICENSE
