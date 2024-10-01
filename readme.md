@@ -2,7 +2,7 @@
 
 ¡Bienvenido a mi portafolio web! Este proyecto está desarrollado utilizando ViteJS, JavaScript, SASS y MaterializeCSS. 
 
-**Sitio web**: [rubenterre.com](https://rubenterre.com) 
+**Sitio web**: [portfoliodevelopervite.netlify.app](https://portfoliodevelopervite.netlify.app/) 
 
 En él encontrarás información sobre mis habilidades, proyectos, experiencia laboral y formación académica. Además, podrás descargar mi currículum y ponerte en contacto conmigo.
 
